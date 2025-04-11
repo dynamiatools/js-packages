@@ -1,0 +1,14 @@
+{
+  "name": "js-packages",
+  "private": true,
+  "version": "0.0.1",
+  "packageManager": "pnpm@8.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r run build",
+    "dev": "pnpm -r run dev",
+    "lint": "pnpm -r run lint"
+  }
+}
