@@ -1,0 +1,21 @@
+{
+  "name": "@dynamia.tools/core",
+  "version": "0.0.1",
+  "description": "TypeScript client to interact with Dynamia Tools metadata APIs",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --dts",
+    "dev": "tsc --watch",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": ["dynamia", "tools", "api", "typescript"],
+  "author": "Dynamia Tools",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.0.0"
+  }
+}
